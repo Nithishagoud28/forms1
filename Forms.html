@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="get">
+      <h1 align="center"><u>Forms</u></h1>
+      <label for="fname">Enter user Name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="Firstname"
+        placeholder="eg.name"
+        required
+        readonly
+        value="Nithisha"
+      /><br /><br />
+      <label>Email</label>
+      <input
+        type="email"
+        id="mail"
+        name="Email"
+        disabled
+        value="nithisha@gmail.com"
+      /><br /><br />
+      <input type="submit" value="Register" /><br></br>
+      <input type="file" multiple accept=".pdf"><br></br>
+      <label for="password">enter your password</label>
+      <input type="password"><br></br>
+      <input type="radio" value="html" name="lang">
+      <label>HTML</label>
+      <input type="radio" value="css" name="lang">
+      <label>CSS</label>
+      <input type="radio" value="js" name="lang">
+      <label>JS</label><br></br>
+      <p>Choose ur fav place:</p>
+      <input type="radio" checked><label>bali</label>
+      <input type="radio"><label>Landakh</label>
+      <input type="radio"><label>malayisa</label><br></br>
+      <p>Choose ur fav clrs:</p>
+      <input type="checkbox" id="clr1" name="clr" value="black" checked><label>black</label>
+      <input type="checkbox" id="clr2" name="clr" value="white"><label>white</label>
+      <input type="checkbox" id="clr3" name="clr" value="red"><label>red</label><br></br>
+      <input type="color">
+      <input type="datetime-local">
+      <input type="date"><br></br>
+      <input type="url"><br></br>
+      <textarea cols="50" rows="25"></textarea> (form element)<br></br>
+      <select name="options" id="option" multiple>
+        <option value="option1">Option1</option>
+        <option value="option2">option2</option>
+        <option value="option3">option3</option>
+
+        </option>
+      </select><br></br><br>
+
+      <input list="colors" name="clrs" id="clrs">
+      <datalist id="colors">
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="black"> black</option>
+      </datalist>
+      <input type="image" src="./Assets/images/flowers.jpg" height="100" width="150">
+      <input type="reset">
+      <input type="submit">
+      <fieldset>
+        <legend>Application form</legend>
+      </fieldset>
+      <picture>
+        <source media="(min.width.620px)" srcset="./Assets/images/Bird.jpg" height="100">
+        <source media="(min.width.480px)" srcset="./Assets/images/peacock jpj.jpg" height="100">
+        <img src="./Assets/images/rose.jpg" alt="" height="150">
+      </picture>
+    </form>
+  </body>
+</html>
